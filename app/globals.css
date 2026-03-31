@@ -10,6 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* UCOM brand colors */
+  --color-brand-navy: #00003B;
+  --color-brand-blue: #52DAFF;
+  --color-brand-blue-light: #73EFFF;
+  --color-brand-pink: #E25AAB;
 }
 
 @media (prefers-color-scheme: dark) {
