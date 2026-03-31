@@ -1,5 +1,5 @@
 async function getPosts() {
-  const res = await fetch(process.env.NEXT_PUBLIC_GRAPHQL_URL, {
+  const res = await fetch(process.env.NEXT_PUBLIC_GRAPHQL_URL as string, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
