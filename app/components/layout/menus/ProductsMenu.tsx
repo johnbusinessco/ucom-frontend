@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import MenuColumn from '@/components/layout/menus/MenuColumn';
-import MenuEntry from '@/components/layout/menus/MenuEntry';
+import MenuColumn from './MenuColumn';
+import MenuEntry from './MenuEntry';
 
 function SoftPhoneCard() {
   return (
